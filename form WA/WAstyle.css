@@ -217,6 +217,7 @@ iframe {
   background: -moz-linear-gradient(left, #00dbde, #fc00ff, #00dbde, #fc00ff);
 
   background: linear-gradient(left, #00dbde, #fc00ff, #00dbde, #fc00ff);
+}
 
 .wrap-contact100 {
   width: 400px;
