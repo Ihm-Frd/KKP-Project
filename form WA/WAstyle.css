@@ -77,7 +77,8 @@ li {
 
 input {
   outline: none;
-  border-radius: 40px;
+  border-radius: 30px;
+  object-fit: cover;
 }
 
 textarea {
@@ -207,25 +208,25 @@ iframe {
 
   padding: 15px;
 
-  background: #a64bf4;
+  background: #fc00ff;
 
-  background: -webkit-linear-gradient(45deg, #fffb00, #66ff00);
+  background: -webkit-linear-gradient(left, #0060de, #ff0077bb, #008cffe8, #ff0077bb);
 
-  background: -o-linear-gradient(45deg, #fffb00, #73ff00);
+  background: -o-linear-gradient(left, #00dbde, #fc00ff, #00dbde, #fc00ff);
 
-  background: -moz-linear-gradient(45deg, #fffb00, #cbfa8d);
+  background: -moz-linear-gradient(left, #00dbde, #fc00ff, #00dbde, #fc00ff);
 
-  background: linear-gradient(45deg, #fffb00, #3cff00b0);
-}
+  background: linear-gradient(left, #00dbde, #fc00ff, #00dbde, #fc00ff);
 
 .wrap-contact100 {
   width: 400px;
-
-  background: #fff;
+  justify-content: center;
+  width: 400px
+  background: transparent;
   border-radius: 10px;
-
+  border-style: outset;
   overflow: hidden;
-
+  border-color: #000000
   padding: 42px 55px 45px 55px;
 }
 
